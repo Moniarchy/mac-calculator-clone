@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+  border: 1px solid #999999;
+  height: 318px;
+  margin: 200px 0px 0px 500px;
+  width: 230px;
+}
+
+.calculator-answer-screen {
+  background-color: #a0a0a0;
+  border-bottom: 2px solid #999999;
+  color: #FFF;
+  height: 77px;
+  text-align: right;
+}
+
+.calculator-row {
+  border-bottom: 1px solid #999999;
+  padding-bottom: 47px;
+}
