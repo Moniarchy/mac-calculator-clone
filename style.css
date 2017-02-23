@@ -7,7 +7,9 @@ body {
   border-radius: 6px;
   box-shadow: 0px 15px 20px 5px rgba(136, 136, 136, 0.5);
   height: 318px;
-  margin: 200px 0px 0px 500px;
+  left: 50%;
+  position: absolute;
+  top: 25%;
   width: 231px;
 }
 
@@ -30,21 +32,29 @@ body {
   justify-content: space-between;
 }
 
-.calculator-cell {
+.calculator-button {
   background-color: #e0e0e0;
-  border-right: 1px solid #999999;
+  border-bottom: none;
+  border-left: 1px solid #999999;
+  border-right: none;
+  border-top: none;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 300;
   height: 47px;
   line-height: 45px;
+  outline: none;
   text-align: center;
-  width: 57px;
+  width: 58px;
+}
+
+.calculator-button:focus {
+  background-color: #a6a6a6;
 }
 
 .calculator-zero {
   border-bottom-left-radius: 6px;
   padding-right: 60px;
-  width: 55px;
+  width: 116px;
 }
 
 .calculator-equals {
@@ -56,14 +66,29 @@ body {
   border-bottom-right-radius: 6px;
 }
 
-.calculator-AC, .calculator-positive-negative, .calculator-percentage {
+.calculator-AC,
+.calculator-positive-negative,
+.calculator-percentage {
   background-color: #d6d6d6;
+  font-size: 18px;
 }
 
-.calculator-divide, .calculator-multiply, .calculator-subtract, .calculator-add, .calculator-equals {
+.calculator-divide,
+.calculator-multiply,
+.calculator-subtract,
+.calculator-add,
+.calculator-equals {
   background-color: #f5923f;
   border-right: none;
   color: white;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 100;
+}
+
+.calculator-divide:focus,
+.calculator-multiply:focus,
+.calculator-subtract:focus,
+.calculator-add:focus,
+.calculator-equals:focus {
+  background-color: #da680b;
 }
