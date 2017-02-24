@@ -7,13 +7,10 @@ body {
   border-radius: 6px;
   box-shadow: 0px 15px 20px 5px rgba(136, 136, 136, 0.5);
   height: 318px;
-  left: 50%;
-  position: absolute;
-  top: 25%;
   width: 231px;
 }
 
-.calculator-answer-screen {
+.calculator-screen {
   background-color: #a0a0a0;
   border-bottom: 2px solid #999999;
   border-top-left-radius: 2px;
@@ -85,10 +82,10 @@ body {
   font-weight: 100;
 }
 
-.calculator-divide:focus,
-.calculator-multiply:focus,
-.calculator-subtract:focus,
-.calculator-add:focus,
-.calculator-equals:focus {
+.calculator-divide:active,
+.calculator-multiply:active,
+.calculator-subtract:active,
+.calculator-add:active,
+.calculator-equals:active {
   background-color: #da680b;
 }
