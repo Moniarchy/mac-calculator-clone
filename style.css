@@ -41,10 +41,12 @@ body {
   line-height: 45px;
   outline: none;
   text-align: center;
+  transition: background-color 100ms;
   width: 58px;
 }
 
-.calculator-button:focus {
+.calculator-button:active,
+.calculator-button:hover {
   background-color: #a6a6a6;
 }
 
@@ -86,6 +88,12 @@ body {
 .calculator-multiply:active,
 .calculator-subtract:active,
 .calculator-add:active,
-.calculator-equals:active {
+.calculator-equals:active
+.calculator-equals:hover,
+.calculator-divide:hover,
+.calculator-multiply:hover,
+.calculator-subtract:hover,
+.calculator-add:hover,
+.calculator-equals:hover {
   background-color: #da680b;
 }
